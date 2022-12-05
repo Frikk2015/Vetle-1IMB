@@ -1,0 +1,326 @@
+body {
+    background-color: #1e1919;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#nyeting {
+    background-color: #f7f5f2;
+    color: #524a3e;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    margin: 0;
+}
+#nav-bar {
+    background-color: white;
+    display: flex;
+    position: fixed;
+    top: 56px;
+    left: 0;
+    width: 100%;
+    height: 48px;
+    margin: 0;
+}
+#pickup-logo {
+    height: 100%;
+    width: 4%;
+    background-color: #0061fe;
+    margin: 0;
+}
+#pickup-text {
+    height: 100%;
+    width: 10%;
+    background-color: white;
+    margin: 0;
+}
+#placeholder {
+    width: 50%;
+}
+#register {
+    height: 48px;
+    width: 10%;
+}
+#login {
+    height: 48px;
+    width: 8%;
+}
+#menu {
+    height: 48px;
+    width: 4%;
+}
+.button {
+    transition-duration: 200ms;
+    border: none;
+    cursor: pointer;
+}
+.button-pickupbox-logo {
+    height: 100%;
+    width: 48px;
+    background-color: #0061fe;
+    border: #0061fe;
+    cursor: pointer;
+}
+.register-button {
+    height: 48px;
+    width: 100%;
+    background-color: white;
+    border: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.register-button:hover {
+    background-color: #f2eee8;
+    border: #f2eee8;
+}
+.button-pickupbox-text {
+    height: 100%;
+    width: 130px;
+    background-color: white;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 650;
+    font-size: 23px;
+    cursor: pointer;
+}
+.login-button {
+    height: 48px;
+    width: 100%;
+    background-color: white;
+    border: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login-button:hover {
+    background-color: #f2eee8;
+    border: #f2eee8;
+}
+#getstarted {
+    margin: 4px;
+    height: 40px;
+    width: 14%;
+    background-color: #0061fe;
+}
+.getstarted-button {
+    height: 100%;
+    width: 100%;
+    background-color: #0061fe;
+    border: #0061fe;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+}
+.getstarted-button:hover {
+    background-color: #297afe;
+    border: #297afe;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+}
+.mainbox {
+    margin-top: 10%;
+    width: 60%;
+    height: fit-content;
+    background-color: #1e1919;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 250%;
+}
+.plan-button {
+    height: 70px;
+    width: 200px;
+    cursor: pointer;
+    background-color: #3984ff;
+    border: #3984ff;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.plan-button:hover {
+    background-color: #79acff;
+    border: #79acff;
+}
+#hvorfor {
+    height: 48px;
+    width: 15%;
+}
+#produkter {
+    height: 48px;
+    width: 10%;
+}
+#losninger {
+    height: 48px;
+    width: 10%;
+}
+#priser {
+    height: 48px;
+    width: 6%;
+}
+#kontakt {
+    height: 48px;
+    width: 8%;
+}
+#lastned {
+    height: 48px;
+    width: 15%;
+}
+.hvorfor-button {
+    height: 48px;
+    width: 100%;
+    background-color: white;
+    border: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.produkter-button {
+    height: 48px;
+    width: 100%;
+    background-color: white;
+    border: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.losninger-button {
+    height: 48px;
+    width: 100%;
+    background-color: white;
+    border: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.priser-button {
+    height: 48px;
+    width: 100%;
+    background-color: white;
+    border: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.kontakt-button {
+    height: 48px;
+    width: 100%;
+    background-color: white;
+    border: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.lastned-button {
+    height: 48px;
+    width: 100%;
+    background-color: white;
+    border: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.hvorfor-button:hover {
+    background-color: #f2eee8;
+    border: #f2eee8;
+}
+.produkter-button:hover {
+    background-color: #f2eee8;
+    border: #f2eee8;
+}
+.losninger-button:hover {
+    background-color: #f2eee8;
+    border: #f2eee8;
+}
+.priser-button:hover {
+    background-color: #f2eee8;
+    border: #f2eee8;
+}
+.kontakt-button:hover {
+    background-color: #f2eee8;
+    border: #f2eee8;
+}
+.lastned-button:hover {
+    background-color: #f2eee8;
+    border: #f2eee8;
+}
+h2 {
+    font-size: 55px;
+}
+p {
+    font-size: 15px;
+    line-height: normal;
+}
+a {
+    color: #524a3e;
+}
+a:hover {
+    text-decoration: none;
+}
+@media only screen and (min-width: 1281px) {
+    #placeholder {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    #hvorfor {
+        display: none;
+    }
+    #produkter {
+        display: none;
+    }
+    #losninger {
+        display: none;
+    }
+    #priser {
+        display: none;
+    }
+    #kontakt {
+        display: none;
+    }
+    #lastned {
+        display: none;
+    }
+}
+@media only screen and (max-width: 992px) {
+    #pickup-logo {
+        width: 5%;
+    }
+    #menu {
+        width: 5%;
+    }
+    #placeholder {
+        width: 48%;
+    }
+}
+@media screen and (max-width: 768px) {
+    #getstarted {
+        display: none;
+    }
+    #pickup-logo {
+        width: 6%;
+    }
+    #menu {
+        width: 6%;
+    }
+    #placeholder {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #placeholder {
+        width: 35%;
+    }
+    #pickup-logo {
+        width: 12%;
+    }
+    #menu {
+        width: 9%;
+    }
+    #register {
+        width: 20%;
+    }
+    #login {
+        width: 12%;
+    }
+}
