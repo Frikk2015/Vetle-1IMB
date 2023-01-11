@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nb">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/main.css" rel="stylesheet">
+        <script src="JS/main.js"></script>
+        <title>Stein saks papir</title>
+    </head>
+    <body>
+        <div id="arena">
+            <div id="player">
+                <img src="images/spiller_stein.png" alt="stein" height="70%" id="stein_player">
+                <img src="images/spiller_saks.png" alt="saks" height="70%" id="saks_player">
+                <img src="images/spiller_papir.png" alt="papir" height="70%" id="papir_player">
+            </div>
+            <div id="vs">
+                <p id="vstext">VS</p>
+                <p id="score">0 - 0</p>
+            </div>
+            <div id="computer">
+                <img src="images/maskin_stein.png" alt="stein" height="70%" id="stein_computer">
+                <img src="images/maskin_saks.png" alt="saks" height="70%" id="saks_computer">
+                <img src="images/maskin_papir.png" alt="papir" height="70%" id="papir_computer">
+            </div>
+        </div>
+        <div id="spill">
+            <button id="spill-button" onclick="spill()">Fight!</button>
+        </div>
+        <div id="klar">
+            <div class="ssp">
+                <button class="sspbutton" title="stein" onclick="steinPlayer()"><img src="images/spiller_stein.png" alt="stein"></button>
+                <button class="sspbutton" title="saks" onclick="saksPlayer()"><img src="images/spiller_saks.png" alt="stein"></button>
+                <button class="sspbutton" title="papir" onclick="papirPlayer()"><img src="images/spiller_papir.png" alt="stein"></button>
+            </div>
+        </div>
+    </body>
+</html>
