@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/style.css">
+        <script src="JS/script.js" defer></script>
+        <title>Værmelding</title>
+    </head>
+    <body>
+        <div id="bg"></div>
+        <div id="container">
+            <div id="weatherBox">
+                <h1 id="h">Værmelding</h1>
+                <div id="locationBox">
+                    <select oninput="window['updatePosition'+this.value]()" id="selectBox">
+                        <option value="YourPosition">Din posisjon</option>
+                        <option value="Oslo">Oslo</option>
+                        <option value="Trondheim">Trondheim</option>
+                        <option value="Tromsoe">Tromsø</option>
+                        <option value="Bergen">Bergen</option>
+                        <option value="CustomPosition">Velg egen posisjon</option>
+                    </select>
+                </div>
+                <button class="buttonDefault" id="updateWeatherButton" onclick="updateAPI()">Oppdater været</button>
+                <br>
+                <img id="weatherIMG" src="Images/fair_day.svg" alt="Været er">
+                <p id="temperatureP"></p>
+                <p id="rainP"></p>
+                <p id="windSpeedP"></p>
+            </div>
+        </div>
+    </body>
+</html>
