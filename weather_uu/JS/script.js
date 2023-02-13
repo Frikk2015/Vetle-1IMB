@@ -15,12 +15,12 @@ function updateAPI(){
 }
 
 function updateText(){
-    document.getElementById('weatherIMG').src = 'images/' + weatherJSON.properties.timeseries[date].data.next_1_hours.summary.symbol_code + '.svg'
+    document.getElementById('weatherIMG').src = 'Images/' + weatherJSON.properties.timeseries[date].data.next_1_hours.summary.symbol_code + '.svg'
     document.getElementById('weatherIMG').alt = weatherJSON.properties.timeseries[date].data.next_1_hours.summary.symbol_code
-    document.getElementById('temperatureP').innerHTML = '<img src="images/thermometer.svg" height=48px alt="Grader celsius"> <span style="font-size: 3rem">' + weatherJSON.properties.timeseries[date].data.instant.details.air_temperature + '</span>&#176;C'
+    document.getElementById('temperatureP').innerHTML = '<img src="Images/thermometer.svg" height=48px alt="Grader celsius"> <span style="font-size: 3rem">' + weatherJSON.properties.timeseries[date].data.instant.details.air_temperature + '</span>&#176;C'
     document.getElementById('rainP').innerHTML = '<img src="Images/umbrella.svg" alt="Nedbør" height=32px> <span style="font-size: 2rem">' + weatherJSON.properties.timeseries[date].data.next_1_hours.details.precipitation_amount + '</span>mm'
-    document.getElementById('windSpeedP').innerHTML = '<img src="images/wind-icon.svg" alt="Vind" height=28px> <span style="font-size: 1.5rem">' + weatherJSON.properties.timeseries[date].data.instant.details.wind_speed + '</span>m/s'
-    document.getElementById('windSpeedP').innerHTML += ' <img src="images/directionArrow.svg" id="windDirectionArrow" alt="Det blåser i retningen' + weatherJSON.properties.timeseries[date].data.instant.details.wind_from_direction + 'grader">'
+    document.getElementById('windSpeedP').innerHTML = '<img src="Images/wind-icon.svg" alt="Vind" height=28px> <span style="font-size: 1.5rem">' + weatherJSON.properties.timeseries[date].data.instant.details.wind_speed + '</span>m/s'
+    document.getElementById('windSpeedP').innerHTML += ' <img src="Images/directionArrow.svg" id="windDirectionArrow" alt="Det blåser i retningen' + weatherJSON.properties.timeseries[date].data.instant.details.wind_from_direction + 'grader">'
 }
 
 function updateStyle(){
