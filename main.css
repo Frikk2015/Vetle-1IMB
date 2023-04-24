@@ -46,15 +46,18 @@ body {
     opacity: 0.5;
 }
 #container[data-active-index="0"] > #bakgrunn {
-    background-position: 0% -25%;
+    background-position: 0% -20%;
 }
 #container[data-active-index="1"] > #bakgrunn {
-    background-position: 0% -50%;
+    background-position: 0% -40%;
 }
 #container[data-active-index="2"] > #bakgrunn {
-    background-position: 0% -75%;
+    background-position: 0% -60%;
 }
 #container[data-active-index="3"] > #bakgrunn {
+    background-position: 0% -80%;
+}
+#container[data-active-index="4"] > #bakgrunn {
     background-position: 0% -100%;
 }
 #bakgrunnBilde {
@@ -75,14 +78,17 @@ body {
     opacity: 0.10;
 }
 #container[data-active-index="0"] > #bakgrunnBilde {
-    background-position: center 45%;
+    background-position: center 40%;
 }
 #container[data-active-index="1"] > #bakgrunnBilde {
-    background-position: center 50%;
+    background-position: center 45%;
 }
 #container[data-active-index="2"] > #bakgrunnBilde {
-    background-position: center 55%;
+    background-position: center 50%;
 }
 #container[data-active-index="3"] > #bakgrunnBilde {
+    background-position: center 55%;
+}
+#container[data-active-index="4"] > #bakgrunnBilde {
     background-position: center 60%;
 }
