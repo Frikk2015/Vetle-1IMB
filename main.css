@@ -48,7 +48,7 @@ body {
 #bakgrunnBilde {
     height: 100%;
     width: 100%;
-    background-image: url(../images/bakgrunn-bilde.jpg);
+    background-image: url(bakgrunn-bilde.jpg);
     position: absolute;
     left: 0px;
     top: 0px;
