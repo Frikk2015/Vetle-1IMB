@@ -17,7 +17,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: block;
     text-decoration: none;
-    padding: 20px;
+    padding: 15px;
     transition: 400ms ease;
 }
 #nettsider:hover > .nettside {
@@ -45,28 +45,10 @@ body {
     background-size: 11vmin 11vmin;
     opacity: 0.5;
 }
-#container[data-active-index="0"] > #bakgrunn {
-    background-position: 0% -17%;
-}
-#container[data-active-index="1"] > #bakgrunn {
-    background-position: 0% -34%;
-}
-#container[data-active-index="2"] > #bakgrunn {
-    background-position: 0% -51%;
-}
-#container[data-active-index="3"] > #bakgrunn {
-    background-position: 0% -68%;
-}
-#container[data-active-index="4"] > #bakgrunn {
-    background-position: 0% -85%;
-}
-#container[data-active-index="5"] > #bakgrunn {
-    background-position: 0% -100%;
-}
 #bakgrunnBilde {
     height: 100%;
     width: 100%;
-    background-image: url("bakgrunn-bilde.jpg");
+    background-image: url(../images/bakgrunn-bilde.jpg);
     position: absolute;
     left: 0px;
     top: 0px;
@@ -79,22 +61,4 @@ body {
 #nettsider:hover ~ #bakgrunnBilde {
     background-size: 100vmax;
     opacity: 0.10;
-}
-#container[data-active-index="0"] > #bakgrunnBilde {
-    background-position: center 40%;
-}
-#container[data-active-index="1"] > #bakgrunnBilde {
-    background-position: center 45%;
-}
-#container[data-active-index="2"] > #bakgrunnBilde {
-    background-position: center 50%;
-}
-#container[data-active-index="3"] > #bakgrunnBilde {
-    background-position: center 55%;
-}
-#container[data-active-index="4"] > #bakgrunnBilde {
-    background-position: center 60%;
-}
-#container[data-active-index="5"] > #bakgrunnBilde {
-    background-position: center 65%;
 }
