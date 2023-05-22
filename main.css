@@ -46,18 +46,21 @@ body {
     opacity: 0.5;
 }
 #container[data-active-index="0"] > #bakgrunn {
-    background-position: 0% -20%;
+    background-position: 0% -17%;
 }
 #container[data-active-index="1"] > #bakgrunn {
-    background-position: 0% -40%;
+    background-position: 0% -34%;
 }
 #container[data-active-index="2"] > #bakgrunn {
-    background-position: 0% -60%;
+    background-position: 0% -51%;
 }
 #container[data-active-index="3"] > #bakgrunn {
-    background-position: 0% -80%;
+    background-position: 0% -68%;
 }
 #container[data-active-index="4"] > #bakgrunn {
+    background-position: 0% -85%;
+}
+#container[data-active-index="5"] > #bakgrunn {
     background-position: 0% -100%;
 }
 #bakgrunnBilde {
@@ -91,4 +94,7 @@ body {
 }
 #container[data-active-index="4"] > #bakgrunnBilde {
     background-position: center 60%;
+}
+#container[data-active-index="5"] > #bakgrunnBilde {
+    background-position: center 65%;
 }
